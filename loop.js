@@ -56,16 +56,16 @@ breakAndCon();
 
 console.log("-------");
 
-function whileShare() {
-  let i = 10;
-  while (i - 2) {
-    if ((i = 0)) {
-      console.log(i);
-      break;
-    }
-  }
-}
-whileShare();
+// function whileShare() {
+//   let i = 10;
+//   while (i - 2) {
+//     if ((i = 0)) {
+//       console.log(i);
+//       break;
+//     }
+//   }
+// }
+// whileShare();
 
 console.log("-------");
 
@@ -81,3 +81,9 @@ function oddeven() {
 }
 oddeven();
 */
+function normal() {
+  for (let i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+}
+normal();
