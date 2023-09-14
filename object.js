@@ -48,16 +48,18 @@ const loopData = data.map((value, index) => {
   const keyJob = "job";
   const line = "-------------";
 
-  console.log(`Person ${index + 1}
-  Name: ${value[keyName]}
-  Age: ${value[keyAge]}
-  job: ${value[keyJob]}
-  ${line}`);
-});
+  //   console.log(`Person ${index + 1}
+  //   Name: ${value[keyName]}
+  //   Age: ${value[keyAge]}
+  //   job: ${value[keyJob]}
+  //   ${line}`);
 
-// const keyName = "name";
-// const keyAge = "age";
-// const keyJob = "job";
+  console.log(
+    `Person ${index + 1}\nName: ${value[keyName]}\nAge: ${
+      value[keyAge]
+    }\njob: ${value[keyJob]}\n${line}`
+  );
+});
 
 // console.log(data[0][keyName]);
 
